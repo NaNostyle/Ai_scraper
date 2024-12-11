@@ -1,0 +1,34 @@
+{
+    "articles": {
+        "articles": [
+            {
+                "brand": "Nike",
+                "item_url": "https://www.vin d.fr/items/5513456488-nike-wende-mutze?referrer=catalog ",
+                "member_url": "https://www.vinted.fr/member/224990365-ben Schwarze Nike Jacke",
+                "nickname": "ben Schwarze Nike Jacke",
+                "price_incl": 10,
+                "sizes": [
+                    "S/ 36 / 8"
+                ]
+            },
+            {
+                "brand": "Nike",
+                "item_url": "https://www.vinted.fr/items/5514723905-nike-t-shirt?referr ",
+                "member_url": "https://www.vinted.fr/member/43732148-leonie2306",
+                "nickname": "leonie2306",
+                "price_incl": 8,
+                "sizes": [
+                    "M"
+                ]
+            },
+            {
+                "brand": "Nike",
+                "item_url": "https://www.vinted.fr/items/5514723905-nike-t-shirt?referr ",
+                "member_url": "",
+                "nickname": "N/A",
+                "price_incl": 0,
+                "sizes": []
+            }
+        ]
+    }
+}

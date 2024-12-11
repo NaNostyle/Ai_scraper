@@ -1,0 +1,433 @@
+{
+    "articles": [
+        {
+            "brand": "Jordan",
+            "item_url": "https://www.vinted.fr/items/55",
+            "member_url": "",
+            "nickname": "Jordan 4 Retro white crimson cramoisie black",
+            "price_incl": 71,
+            "sizes": [
+                "42,5"
+            ]
+        },
+        {
+            "brand": "Salomon",
+            "item_url": "https://www.vinted.fr/items/5514314947-salomon-archive-2001",
+            "member_url": "",
+            "nickname": "Air max 1 black gum",
+            "price_incl": 86,
+            "sizes": [
+                "46"
+            ]
+        },
+        {
+            "brand": "Nike",
+            "item_url": "https://www.vinted.fr/items/5507174140-air-max-95-c-TN-Tiger-sunset-2018",
+            "member_url": "",
+            "nickname": "Air max 95 c TN Tiger sunset 2018",
+            "price_incl": 37,
+            "sizes": [
+                "42,5"
+            ]
+        },
+        {
+            "brand": "Nike",
+            "item_url": "https://www.vinted.fr/items/5514382245-air-max-plus-tn-black",
+            "member_url": "",
+            "nickname": "Air max plus tn black",
+            "price_incl": 56,
+            "sizes": [
+                "-"
+            ]
+        },
+        {
+            "brand": "Nike",
+            "item_url": "https://www.vinted.fr/items/5513450133-blaues-nike-shirt",
+            "member_url": "",
+            "nickname": "-",
+            "price_incl": -1,
+            "sizes": [
+                "-"
+            ]
+        },
+        {
+            "brand": "Nike",
+            "item_url": "https://www.vinted.fr/member/246216089-xxxx2-7",
+            "member_url": "",
+            "nickname": "-",
+            "price_incl": -1,
+            "sizes": [
+                "-"
+            ]
+        },
+        {
+            "brand": "Nike",
+            "item_url": "https://www.vinted.fr/member/78508919-johannesmarchri",
+            "member_url": "",
+            "nickname": "-",
+            "price_incl": -1,
+            "sizes": [
+                "-"
+            ]
+        },
+        {
+            "brand": "Nike",
+            "item_url": "https://www.vinted.fr/items/5510242403-nike-zipper",
+            "member_url": "",
+            "nickname": "Nike Dri-Fit Shorts schwarz Gr\u00f6\u00dfe L",
+            "price_incl": 5,
+            "sizes": [
+                "L"
+            ]
+        },
+        {
+            "brand": "Nike",
+            "item_url": "https://www.vinted.fr/items/5512079829-nike-zipper",
+            "member_url": "",
+            "nickname": "-",
+            "price_incl": -1,
+            "sizes": [
+                "-"
+            ]
+        },
+        {
+            "brand": "Nike",
+            "item_url": "https://www.vinted.fr/member/57987093-rappinator",
+            "member_url": "",
+            "nickname": "-",
+            "price_incl": -1,
+            "sizes": [
+                "-"
+            ]
+        },
+        {
+            "brand": "Nike",
+            "item_url": "https://www.vinted.fr/items/5509578570-nike-poloshirt",
+            "member_url": "",
+            "nickname": "Nike Pullover",
+            "price_incl": 6,
+            "sizes": [
+                "XS / 34"
+            ]
+        },
+        {
+            "brand": "Nike Academy",
+            "item_url": "https://www.vinted.fr/catalog?search_text=nike+academy",
+            "member_url": "",
+            "nickname": "-",
+            "price_incl": -1,
+            "sizes": [
+                "-"
+            ]
+        },
+        {
+            "brand": "Nike Tech Fleece",
+            "item_url": "https://www.vinted.fr/items/5512714594-chandal-nike-f",
+            "member_url": "",
+            "nickname": "Ch\u00e1ndal Nike holanda pases bajos ADV authentic elite",
+            "price_incl": 150,
+            "sizes": [
+                "M"
+            ]
+        },
+        {
+            "brand": "Nike Academy",
+            "item_url": "https://www.vinted.fr/items/5513603783-schwarzes-nike-tshirt",
+            "member_url": "",
+            "nickname": "-",
+            "price_incl": 10,
+            "sizes": [
+                "M"
+            ]
+        },
+        {
+            "brand": "Nike",
+            "item_url": "https://www.vinted.fr/member/177973735-lia01",
+            "member_url": "",
+            "nickname": "-",
+            "price_incl": -1,
+            "sizes": [
+                "-"
+            ]
+        },
+        {
+            "brand": "Nike",
+            "item_url": "https://www.vinted.fr/items/5513450133-blaues-nike-shirt",
+            "member_url": "",
+            "nickname": "-",
+            "price_incl": -1,
+            "sizes": [
+                "-"
+            ]
+        },
+        {
+            "brand": "Nike",
+            "item_url": "https://www.vinted.fr/member/246216089-xxxx2-7",
+            "member_url": "",
+            "nickname": "-",
+            "price_incl": -1,
+            "sizes": [
+                "-"
+            ]
+        },
+        {
+            "brand": "Nike",
+            "item_url": "https://www.vinted.fr/items/5513450133-blaues-nike-shirt",
+            "member_url": "",
+            "nickname": "-",
+            "price_incl": -1,
+            "sizes": [
+                "-"
+            ]
+        },
+        {
+            "brand": "Nike",
+            "item_url": "https://www.vinted.fr/member/78508919-johannesmarchri",
+            "member_url": "",
+            "nickname": "-",
+            "price_incl": -1,
+            "sizes": [
+                "-"
+            ]
+        },
+        {
+            "brand": "Nike",
+            "item_url": "https://www.vinted.fr/items/5509578570-nike-poloshirt",
+            "member_url": "",
+            "nickname": "Nike Pullover",
+            "price_incl": 12,
+            "sizes": [
+                "schwarz"
+            ]
+        },
+        {
+            "brand": "Nike",
+            "item_url": "https://www.vinted.fr/items/5514826394-nike-t-shirt-schwarz?referrer=catalog",
+            "member_url": "https://www.vinted.fr/member/79964208-jubaehren",
+            "nickname": "",
+            "price_incl": 10,
+            "sizes": [
+                "M/38/10",
+                "S/36/8"
+            ]
+        },
+        {
+            "brand": "Nike",
+            "item_url": "https://www.vinted.fr/items/5512666223-laufschuhe-nike-wie-neu?referrer=catalog",
+            "member_url": "https://www.vinted.fr/member/246171411-malteking2",
+            "nickname": "",
+            "price_incl": 6,
+            "sizes": [
+                ""
+            ]
+        },
+        {
+            "brand": "Nike",
+            "item_url": "https://www.vinted.fr/items/5512666223-laufschuhe-nike-wie-neu?referrer=catalog",
+            "member_url": "https://www.vinted.fr/member/246171411-malteking2",
+            "nickname": "",
+            "price_incl": 6,
+            "sizes": [
+                ""
+            ]
+        },
+        {
+            "brand": "Nike",
+            "item_url": "https://www.vinted.fr/items/5509059623-neues-nike-oberteil?referrer=catalog",
+            "member_url": "https://www.vinted.fr/member/43876053-janine3511",
+            "nickname": "",
+            "price_incl": 5,
+            "sizes": [
+                "L/XL/dunkel rosa"
+            ]
+        },
+        {
+            "brand": "Nike",
+            "item_url": "https://www.vinted.fr/items/5514826394-nike-t-shirt-schwarz?referrer=catalog",
+            "member_url": "https://www.vinted.fr/member/79964208-jubaehren",
+            "nickname": "",
+            "price_incl": 10,
+            "sizes": [
+                "M/38/10"
+            ]
+        },
+        {
+            "brand": "Nike",
+            "item_url": "https://www.vinted.fr/items/5514826394-nike-t-shirt-schwarz?referrer=catalog",
+            "member_url": "https://www.vinted.fr/member/79964208-jubaehren",
+            "nickname": "",
+            "price_incl": 10,
+            "sizes": [
+                "S/36/8"
+            ]
+        },
+        {
+            "brand": "Columbia",
+            "item_url": "https://www.vinted.fr/items/5514183467-pull-nike-capuche-zip",
+            "member_url": "https://www.vinted.fr/member/62983356-nathaliege1303",
+            "nickname": "",
+            "price_incl": 15,
+            "sizes": [
+                "S/36/8"
+            ]
+        },
+        {
+            "brand": "Columbia",
+            "item_url": "https://www.vinted.fr/items/5514183467-pull-nike-capuche-zip",
+            "member_url": "https://www.vinted.fr/member/62983356-nathaliege1303",
+            "nickname": "",
+            "price_incl": 15,
+            "sizes": [
+                "S/36/8"
+            ]
+        },
+        {
+            "brand": "Columbia",
+            "item_url": "https://www.vinted.fr/items/5514643982-veste-polaire-columbia-gris-xs-zip",
+            "member_url": "https://www.vinted.fr/member/62983356-nathaliege1303",
+            "nickname": "",
+            "price_incl": 15,
+            "sizes": [
+                "S/36/8"
+            ]
+        },
+        {
+            "brand": "Primark",
+            "item_url": "https://www.vinted.fr/items/5514073655-veste-zip-garcon-gemo-4-ans",
+            "member_url": "https://www.vinted.fr/member/246171411-malteking2",
+            "nickname": "",
+            "price_incl": 5,
+            "sizes": [
+                "4 ans / 98 cm"
+            ]
+        },
+        {
+            "brand": "Primark",
+            "item_url": "https://www.vinted.fr/items/5514073655-veste-zip-garcon-gemo-4-ans",
+            "member_url": "https://www.vinted.fr/member/246171411-malteking2",
+            "nickname": "",
+            "price_incl": 5,
+            "sizes": [
+                "4 ans / 98 cm"
+            ]
+        },
+        {
+            "brand": "Nike",
+            "item_url": "https://www.vinted.fr/items/5514739271-weinroter-sport-bh-nike-nike-kunstrasen-fussballschuhe?referrer=catalog",
+            "member_url": "https://www.vinted.fr/member/246171411-malteking2",
+            "nickname": "",
+            "price_incl": 1,
+            "sizes": [
+                "10 ans / 140 cm"
+            ]
+        },
+        {
+            "brand": "Nike",
+            "item_url": "https://www.vinted.fr/items/5514739271-weinroter-sport-bh-nike-nike-kunstrasen-fussballschuhe?referrer=catalog",
+            "member_url": "https://www.vinted.fr/member/246171411-malteking2",
+            "nickname": "",
+            "price_incl": 1,
+            "sizes": [
+                "10 ans / 140 cm"
+            ]
+        },
+        {
+            "brand": "Nike",
+            "item_url": "https://www.vinted.fr/items/5512666223-laufschuhe-nike-wie-neu?referrer=catalog",
+            "member_url": "https://www.vinted.fr/member/246171411-malteking2",
+            "nickname": "",
+            "price_incl": 6,
+            "sizes": [
+                ""
+            ]
+        },
+        {
+            "brand": "Nike",
+            "item_url": "https://www.vinted.fr/items/5514739271-weinroter-sport-bh-nike-nike-kunstrasen-fussballschuhe?referrer=catalog",
+            "member_url": "https://www.vinted.fr/member/246171411-malteking2",
+            "nickname": "",
+            "price_incl": 1,
+            "sizes": [
+                "10 ans / 140 cm"
+            ]
+        },
+        {
+            "brand": "Nike",
+            "item_url": "https://www.vinted.fr/items/5514826394-nike-t-shirt-schwarz?referrer=catalog",
+            "member_url": "https://www.vinted.fr/member/79964208-jubaehren",
+            "nickname": "",
+            "price_incl": 10,
+            "sizes": [
+                "M/38/10"
+            ]
+        },
+        {
+            "brand": "Nike",
+            "item_url": "https://www.vinted.fr/items/5514826394-nike-t-shirt-schwarz?referrer=catalog",
+            "member_url": "https://www.vinted.fr/member/79964208-jubaehren",
+            "nickname": "",
+            "price_incl": 10,
+            "sizes": [
+                "S/36/8"
+            ]
+        },
+        {
+            "brand": "Nike",
+            "item_url": "https://www.vinted.fr/items/5514739271-weinroter-sport-bh-nike-nike-kunstrasen-fussballschuhe?referrer=catalog",
+            "member_url": "https://www.vinted.fr/member/246171411-malteking2",
+            "nickname": "",
+            "price_incl": 1,
+            "sizes": [
+                "10 ans / 140 cm"
+            ]
+        },
+        {
+            "brand": "Nike",
+            "item_url": "https://www.vinted.fr/items/5514826394-nike-t-shirt-schwarz?referrer=catalog",
+            "member_url": "https://www.vinted.fr/member/79964208-jubaehren",
+            "nickname": "",
+            "price_incl": 10,
+            "sizes": [
+                "M/38/10"
+            ]
+        },
+        {
+            "brand": "Nike",
+            "item_url": "https://www.vinted.fr/items/5514739271-weinroter-sport-bh-nike-nike-kunstrasen-fussballschuhe?referrer=catalog",
+            "member_url": "https://www.vinted.fr/member/246171411-malteking2",
+            "nickname": "",
+            "price_incl": 1,
+            "sizes": [
+                "10 ans / 140 cm"
+            ]
+        },
+        {
+            "brand": "Nike",
+            "item_url": "https://www.vin d.fr/items/5513456488-nike-wende-mutze?referrer=catalog ",
+            "member_url": "https://www.vinted.fr/member/224990365-ben Schwarze Nike Jacke",
+            "nickname": "ben Schwarze Nike Jacke",
+            "price_incl": 10,
+            "sizes": [
+                "S/ 36 / 8"
+            ]
+        },
+        {
+            "brand": "Nike",
+            "item_url": "https://www.vinted.fr/items/5514723905-nike-t-shirt?referr ",
+            "member_url": "https://www.vinted.fr/member/43732148-leonie2306",
+            "nickname": "leonie2306",
+            "price_incl": 8,
+            "sizes": [
+                "M"
+            ]
+        },
+        {
+            "brand": "Nike",
+            "item_url": "https://www.vinted.fr/items/5514723905-nike-t-shirt?referr ",
+            "member_url": "",
+            "nickname": "N/A",
+            "price_incl": 0,
+            "sizes": []
+        }
+    ]
+}
