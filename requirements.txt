@@ -1,0 +1,15 @@
+Unidecode
+beautifulsoup4
+pydantic
+markdownify
+openai
+python-dotenv
+urllib3
+Flask
+jsonify
+gunicorn
+gspread
+google-auth
+pymongo
+oauth2client
+seleniumbase

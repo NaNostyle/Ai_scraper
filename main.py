@@ -1,55 +1,66 @@
-import streamlit as st
-from scrape import (
-    scrape_website,
-    extract_body_content,
-    clean_body_content,
-    split_dom_content,
-)
-from parse import parse_with_ollama, parse_with_chatgpt
+import os
+from flask import Flask, request, jsonify
+from dotenv import load_dotenv
+from functools import wraps
 
-# Streamlit UI
-st.title("AI Web Scraper")
-url = st.text_input("Enter Website URL")
+# Import your functions and classes
+from helper_functions import create_dynamic_listing_model, create_listings_container_model,save_to_mongodb,save_to_google_sheet
+import ssl
+from leboncoin_lacentrale_main import scrape_website_auto
 
-# Step 1: Let user input the dynamic class names for articles and container
-feed_class = st.text_input("Enter the class for the feed (e.g., 'feed-grid' 'styles_Listing__isoog'")
-item_class = st.text_input("Enter the class for the item (e.g., 'new-item-box__container' 'styles_adCard__JzKik')")
+# SSL setup
+ssl._create_default_https_context = ssl._create_unverified_context
 
-# Step 2: Scrape the Website when the button is clicked
-if st.button("Scrape Website"):
-    if url and feed_class and item_class:
-        st.write("Scraping the website...")
+# Load environment variables from .env file
+load_dotenv()
 
-        # Scrape the website
-        dom_content = scrape_website(url)
-        body_content = extract_body_content(dom_content)
+# Flask app setup
+app = Flask(__name__)
 
-        # Clean the content based on the dynamic class names
-        cleaned_content = clean_body_content(body_content, feed_class, item_class)
+# API key decorator
+def require_api_key(f):
+    @wraps(f)
+    def decorated_function(*args, **kwargs):
+        api_key = request.headers.get("Authorization")
+        if api_key is None or api_key != os.getenv("API_KEY"):
+            return jsonify({"error": "Unauthorized"}), 401
+        return f(*args, **kwargs)
+    return decorated_function
 
-        # Store the DOM content in Streamlit session state
-        st.session_state.dom_content = cleaned_content
-
-        with st.expander("View DOM Content"):
-            st.text_area("DOM Content", st.session_state.dom_content, height=300)
-        st.write(f"{url} scraped")
-    else:
-        st.error("Please enter all required fields (URL and classes).")
-
-# Step 3: Parse the content based on user choice
-if "dom_content" in st.session_state:
-    parser_option = st.radio("Choose Parser", ("ChatGPT", "Ollama"))
-
-    if st.button("Parse Content"):
-        st.write("Parsing the content...")
-
-        # Split the DOM content into chunks
-        dom_chunks = split_dom_content(st.session_state.dom_content)
-
-        # Parse the content based on the selected option
-        if parser_option == "ChatGPT":
-            parsed_result = parse_with_chatgpt(dom_chunks)
+# Wrap your scraper function in an API route with API key protection
+@app.route("/scrape", methods=["POST"])
+@require_api_key  # Protect the route with the API key check
+def scrape():
+    try:
+        # Extract parameters from the request body (if needed)
+        base_url = request.json.get("base_url")
+        fields = request.json.get("fields")
+        category = request.json.get("category")
+        # Create dynamic models
+        dynamic_listing_model = create_dynamic_listing_model(fields)
+        dynamic_listing_container = create_listings_container_model(dynamic_listing_model)
+        container = "styles_classifiedColumn"
+        # Call your scraper
+        results = scrape_website_auto(
+            base_url, container, dynamic_listing_container,
+            model_option="gpt-4o-mini", llm_option="ChatGPT"
+        )
+        success = save_to_mongodb(results, category,fields)
+        save_to_google_sheet(results,category,fields)
+        if results:
+            print("Success:", results)
         else:
-            parsed_result = parse_with_ollama(dom_chunks)
+            print("No results found.")
+        print(success)
+        return jsonify({"results": results}), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
 
-        st.write(parsed_result)
+# Health check endpoint (required by Render)
+@app.route("/")
+def health_check():
+    return "App is running", 200
+
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 5000))  # Default to 5000 locally
+    app.run(host="0.0.0.0", port=port)
